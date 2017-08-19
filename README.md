@@ -26,4 +26,10 @@ The next step is to convert the tokenlizered sentences into sequences of words, 
 # model training
 Now we can train our model. You may find a ```align-and-translate-char``` ipynb file in the folder, open the file with an IDE or jupyter notebook, and follow the steps there, you will get the model trained and a test bleu around 0.22.
 
-
+# dependences
+```
+tensorflow 1.2.0 for neural network
+jieba for english word tokenlizer
+nltk to calculate bleu score
+sklearn , numpy as toolkit
+```
